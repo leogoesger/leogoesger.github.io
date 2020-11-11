@@ -20,6 +20,7 @@ Pictures are not mine, just using them as a reference.
 - [Astroman, 11c](#astroman)
 - [Half Dome in a Day, 11c](#half-dome-in-a-day)
 - [Incredible Hulk, 11- to 12-](#incredible-hulk)
+    * 8/15/20 with Peter
 - [Lover's Leap 25 Pitches IAD](#leap-25-pitches-iad)
     * 07/26/20 with Fraser
 
@@ -50,9 +51,11 @@ Amazing climbing on Royal Arches, finished in 2.5 hrs. We got lost finding our w
 
 Info: [Mountain Project](https://www.mountainproject.com/route/105862915/sons-of-yesterday)
 
-![Serenity to Sons](./the-royal-arches.jpg)
+![Noelle Serenity to Sons](./noelle-sons.jpeg)
 
-Amazing low angled climbing, kind of hard on my feet, but great for my hands!
+![N&L on Serenity to Sons](./leo-sons.jpeg)
+
+Amazing low angled climbing, kind of hard on my feet, but great for my hands! 10b section step cross is a bit tricky. The entire climb reminds of Positive Vib on the Hulk, but way lower angle. I would recommend using gloves next time.
 
 # Freeblast
 
@@ -81,7 +84,7 @@ Food/Water: 1 Liter of water each person, plus 1 bar (300 cal), eat yo damn brea
 
 ![austin](./austin.jpg)
 
-# Astroman
+# Astroman {#astroman}
 
 Info: [Mountain Project](https://www.mountainproject.com/route/105845493/astroman)
 

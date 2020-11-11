@@ -1,6 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
 import { ToggleBtn } from "./theme-toggler"
+
+if (typeof window !== "undefined") {
+  // eslint-disable-next-line global-require
+  require("smooth-scroll")('a[href*="#"]')
+}
+
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
