@@ -41,10 +41,10 @@ const BlogIndex = ({ data, location }) => {
                 <header>
                   <h2>
                     <Link to={post.fields.slug} itemProp="url">
-                      <span itemProp="headline">{title}</span>
+                      <span itemProp="headline" style={{ color: 'var(--textLink)' }}>{title}</span>
                     </Link>
                   </h2>
-                  <small>{post.frontmatter.date}</small>
+                  <small style={{ color: 'var(--textNormal)' }}>{post.frontmatter.date}</small>
                 </header>
                 <section>
                   <p
@@ -52,6 +52,7 @@ const BlogIndex = ({ data, location }) => {
                       __html: post.frontmatter.description || post.excerpt,
                     }}
                     itemProp="description"
+                    style={{ color: 'var(--textNormal)' }}
                   />
                 </section>
               </article>
