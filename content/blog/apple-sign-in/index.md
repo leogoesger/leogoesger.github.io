@@ -2,6 +2,7 @@
 title: Apple Sign In with Cordova
 date: '2020-08-13T22:12:03.284Z'
 status: 'draft'
+tags: ["coding"]
 ---
 
 ![Apple Sign in](./title.jpg)

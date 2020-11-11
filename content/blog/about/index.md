@@ -2,6 +2,7 @@
 title: About me
 date: '2020-02-29T22:12:03.284Z'
 status: 'draft'
+tags: ["self"]
 ---
 
 ![Noelle, Roxy and I](./fam.png)

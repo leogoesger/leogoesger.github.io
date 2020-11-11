@@ -41,6 +41,7 @@ const Layout = ({ location, title, children }) => {
             <img
               src={require('./twitter.png')}
               style={{ width: 30, height: 30, margin: 0 }}
+              alt="twitter"
             />
           </a>
         </div>

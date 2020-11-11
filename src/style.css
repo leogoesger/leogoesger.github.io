@@ -247,9 +247,8 @@ a:focus {
 }
 
 .global-wrapper[data-is-root-path="true"] .bio {
-  margin-bottom: var(--spacing-20);
+  margin-bottom: var(--spacing-0);
 }
-
 
 
 .main-heading {
@@ -286,7 +285,7 @@ a:focus {
 
 .bio {
   display: flex;
-  margin-bottom: var(--spacing-16);
+  margin-bottom: var(--spacing-0);
 }
 
 .bio p {
@@ -330,28 +329,6 @@ a:focus {
   }
 }
 
-body {
-  --bg: white;
-  --textNormal: #222;
-  --textTitle: #222;
-  --textLink: #ff6060;
-  --blockQuote: hsla(0, 0%, 0%, 0.59);
-  --blockQuoteBorder: 0.32813rem solid hsla(0, 0%, 0%, 0.9);
-  --hr: hsla(0, 0%, 0%, 0.2);
-
-  background-color: var(--bg);
-}
-
-body.dark {
-  -webkit-font-smoothing: antialiased;
-  --bg: #282c35;
-  --textNormal: rgba(255, 255, 255, 0.88);
-  --textTitle: white;
-  --textLink: #b238ff;
-  --blockQuote: hsla(0, 0%, 100%, 0.59);
-  --blockQuoteBorder: 0.32813rem solid hsla(0, 0%, 100%, 0.9);
-  --hr: hsla(0, 0%, 100%, 0.2);
-}
 
 section h2, h1 {
   color: var(--textNormal)
@@ -371,6 +348,33 @@ section li {
 
 nav a {
   color: var(--textLink)
+}
+
+
+body {
+  --bg: white;
+  --textNormal: #222;
+  --textTitle: #222;
+  --textLink: #ff6060;
+  --blockQuote: hsla(0, 0%, 0%, 0.59);
+  --blockQuoteBorder: 0.32813rem solid hsla(0, 0%, 0%, 0.9);
+  --buttonBackground: rgb(239, 239, 239);
+  --buttonText:rgb(245, 165, 0);
+  --hr: hsla(0, 0%, 0%, 0.2);
+  background-color: var(--bg);
+}
+
+body.dark {
+  -webkit-font-smoothing: antialiased;
+  --bg: #282c35;
+  --textNormal: rgba(255, 255, 255, 0.88);
+  --textTitle: white;
+  --textLink: #b238ff;
+  --blockQuote: hsla(0, 0%, 100%, 0.59);
+  --blockQuoteBorder: 0.32813rem solid hsla(0, 0%, 100%, 0.9);
+  --buttonBackground: #828282;
+  --buttonText: rgb(219, 190, 247);
+  --hr: hsla(0, 0%, 100%, 0.2);
 }
 
 

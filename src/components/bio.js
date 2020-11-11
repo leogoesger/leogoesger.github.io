@@ -6,8 +6,9 @@
  */
 
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import Image from "gatsby-image"
+import TagsComponent from "./tags";
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -30,37 +31,48 @@ const Bio = () => {
           }
         }
       }
+      allMarkdownRemark(limit: 2000) {
+        group(field: frontmatter___tags) {
+          fieldValue
+          totalCount
+        }
+      }
     }
   `)
 
   // Set these values by editing "siteMetadata" in gatsby-config.js
   const author = data.site.siteMetadata?.author
-  const social = data.site.siteMetadata?.social
+  // const social = data.site.siteMetadata?.social
 
   const avatar = data?.avatar?.childImageSharp?.fixed
 
   return (
-    <div className="bio">
-      {avatar && (
-        <Image
-          fixed={avatar}
-          alt={author?.name || ``}
-          className="bio-avatar"
-          imgStyle={{
-            borderRadius: `50%`,
-          }}
-        />
-      )}
-      {author?.name && (
-        <p style={{ color: 'var(--textNormal)' }}>
-          <strong>{author.name}</strong> {author?.summary || null}
-          {` `}
-          <a href={`/about`} style={{ color: 'var(--textLink)' }}>
-            More about me
-          </a>
-        </p>
-      )}
-    </div>
+    <>
+      <div className="bio" style={{ flexDirection: "column" }}>
+        <div style={{ display: "flex" }}>
+          {avatar && (
+            <Image
+              fixed={avatar}
+              alt={author?.name || ``}
+              className="bio-avatar"
+              imgStyle={{
+                borderRadius: `50%`,
+              }}
+            />
+          )}
+          {author?.name && (
+            <p style={{ color: 'var(--textNormal)' }}>
+              <strong>{author.name}</strong> {author?.summary || null}
+              {` `}
+              <Link to={`/about`} style={{ color: 'var(--textLink)' }}>
+                More about me
+              </Link>
+            </p>
+          )}
+        </div>
+        {data?.allMarkdownRemark?.group && <TagsComponent group={data?.allMarkdownRemark?.group} />}
+      </div>
+    </>
   )
 }
 

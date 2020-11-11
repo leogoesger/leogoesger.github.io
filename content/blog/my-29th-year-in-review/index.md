@@ -2,6 +2,7 @@
 title: My 29th Year in Review
 date: '2020-04-10T22:12:03.284Z'
 status: 'draft'
+tags: ["self"]
 ---
 
 I just had this realization that when I turn 29 years old, it means I have already been living for 29 years and every day is closer to being 30. It is like the indexing in an array, index 29 is actually the 30th element in that array. And that fact scares me a bit.

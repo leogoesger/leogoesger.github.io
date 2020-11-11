@@ -2,6 +2,7 @@
 title: Using Typescript with React
 date: '2020-03-07T22:12:03.284Z'
 status: 'published'
+tags: ["coding"]
 ---
 
 It has been about two years since I started using Typescript instead of Javascript in web development especially in React. Prior to using TS, I have always found the process of debugging in JS very difficult (I type something first, wait for webpack dev server to refresh, and finally receive the error message). I started trying Typescript mostly because I need a tool that has basic type support to speed up the development process.

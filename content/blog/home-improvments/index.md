@@ -2,6 +2,7 @@
 title: COVID Home Improvments
 date: '2020-04-21T22:12:03.284Z'
 status: 'published'
+tags: ["other"]
 ---
 
 Recently our beloved housemates left us, along with all their amazing furnatures in our livingroom. This triggered a daily 1-2 hr session seaching through Facebook marketplace, and a weekly visit to Home Depot. After a two week search, we have successfuly re-furnished most of our house.

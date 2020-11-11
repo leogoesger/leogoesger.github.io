@@ -2,6 +2,7 @@
 title: 2020 Summer Climbing Tick List
 date: '2020-07-15T22:12:03.284Z'
 status: 'published'
+tags: ["climbing"]
 ---
 
 Here is an ambitious list of climbs I'd like to complete this 2020 summer. 
@@ -39,9 +40,11 @@ Info: [Mountain Project](https://www.mountainproject.com/route/105833467/east-bu
 
 Info: [Mountain Project](https://www.mountainproject.com/route/105862890/crest-jewel-and-crest-jewel-direct)
 
-![Crest Jewel](./crest-jewel.jpg)
+![N&L on Crest Jewel](./noelle-crest.jpeg)
 
-Amazing climbing on Royal Arches, finished in 2.5 hrs. We got lost finding our way to Crest Jewel direct start. It is on a talus field. Bolts are harder to find and slab climbing is not as easy as I hoped, but nothing can beat the 30+ pitches of continous climbing on the amazing granite.
+![Leo on Crest Jewel](./leo-crest.jpeg)
+
+Amazing climbing on Royal Arches, finished in 2.5 hrs. We got lost finding our way to Crest Jewel direct start. It is on a talus field. Bolts are harder to find and slab climbing is not as easy as I hoped, but nothing can beat the 30+ pitches of continous climbing on the amazing granite with Noellie!
 
 # Serenity to Sons
 
