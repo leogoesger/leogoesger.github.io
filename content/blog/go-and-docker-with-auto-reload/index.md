@@ -1,7 +1,7 @@
 ---
 title: Go and Docker with Auto Reload
 date: '2020-11-11T22:12:03.284Z'
-status: 'draft'
+draft: false
 tags: ["coding"]
 ogimage: './docker-go.png'
 ---

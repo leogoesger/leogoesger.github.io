@@ -1,7 +1,7 @@
 ---
 title: My 29th Year in Review
 date: '2020-04-10T22:12:03.284Z'
-status: 'draft'
+draft: false
 tags: ["self"]
 ---
 

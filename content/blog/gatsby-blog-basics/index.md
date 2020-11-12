@@ -1,7 +1,7 @@
 ---
 title: 'Build a Gatsby Blog Part I: Basics'
 date: '2020-08-13T22:12:03.284Z'
-status: 'draft'
+draft: false
 tags: ["coding"]
 ---
 

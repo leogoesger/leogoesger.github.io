@@ -1,7 +1,7 @@
 ---
 title: 'Build a Gatsby Blog Part II: Dark Theme and Meta Image'
 date: '2020-09-10T22:12:03.284Z'
-status: 'draft'
+draft: false
 tags: ["coding"]
 ---
 
