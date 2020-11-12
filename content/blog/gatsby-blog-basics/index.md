@@ -113,3 +113,8 @@ git push origin master
 ## Recap
 
 That's about it! Without customization, this entire process takes me less than 10 mins. It is pretty cool to be able to write blogs using markdown. To update the site, all you need to do is to push to master.
+
+## Reference
+
+* [Github Repo](https://github.com/leogoesger/leogoesger.github.io)
+* [Start a Blog with Gatsby and Netlify](https://daveceddia.com/start-blog-gatsby-netlify/)

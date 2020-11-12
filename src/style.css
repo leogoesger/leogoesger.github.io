@@ -404,3 +404,7 @@ td {
 span.token.operator {
   background: none;
 }
+
+a.anchor {
+  fill: red;
+}

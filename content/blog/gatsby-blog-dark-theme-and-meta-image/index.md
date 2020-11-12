@@ -1,5 +1,5 @@
 ---
-title: 'Build a Gatsby Blog Part II: Dark Theme and Meta Image '
+title: 'Build a Gatsby Blog Part II: Dark Theme and Meta Image'
 date: '2020-09-10T22:12:03.284Z'
 status: 'draft'
 tags: ["coding"]
@@ -440,3 +440,6 @@ And that's it! You can verify it in the chrome console.
 
 ![verify-chrome](./og-verify.png)
 
+## Reference
+
+* [Github Repo](https://github.com/leogoesger/leogoesger.github.io)
