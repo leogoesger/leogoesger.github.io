@@ -330,7 +330,7 @@ a:focus {
 }
 
 
-section h2, h1 {
+section h4, h3, h2, h1, table {
   color: var(--textNormal)
 }
 
@@ -390,4 +390,13 @@ code {
   color: var(--codeText) !important;
   text-shadow: none !important;
   font-size: 0.9rem !important;
+}
+
+tr {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+td {
+  padding: 4px 0px
 }
