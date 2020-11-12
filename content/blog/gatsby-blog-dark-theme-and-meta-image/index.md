@@ -3,6 +3,7 @@ title: 'Build a Gatsby Blog Part II: Dark Theme and Meta Image'
 date: '2020-09-10T22:12:03.284Z'
 draft: false
 tags: ["coding"]
+ogimage: '../gatsby-blog-basics/gatsby.png'
 ---
 
 Continuing with Part I, we can add more fancy features in this section. With more people prefer dark mode, it is much needed to provide an option to toggle between dark and bright. When we share our posts, we also want to display a meta image to grab the reader's attention.

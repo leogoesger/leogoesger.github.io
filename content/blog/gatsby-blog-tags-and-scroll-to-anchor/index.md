@@ -3,6 +3,7 @@ title: 'Build a Gatsby Blog Part III: Tags and Scroll to Anchor'
 date: '2020-10-14T22:12:03.284Z'
 draft: false
 tags: ["coding"]
+ogimage: '../gatsby-blog-basics/gatsby.png'
 ---
 
 Continuing with Part I or II, we can add tags to allow users picking specific interested topics. Scroll to Anchor is helpful because some posts could get a bit too long to manually scroll. 

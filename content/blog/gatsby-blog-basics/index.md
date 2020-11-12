@@ -3,6 +3,7 @@ title: 'Build a Gatsby Blog Part I: Basics'
 date: '2020-08-13T22:12:03.284Z'
 draft: false
 tags: ["coding"]
+ogimage: './gatsby.png'
 ---
 
 Building a blog with Gatsby isn't for everyone. It requires a decent amount of knowledge in both React and JS in general. Although you can clone a starter repo and work with markdown files, it lost its purpose, and it would be more maintainable to use a website builder or WordPress. All of which begs the question, why use Gatsby for a blog then? There are a few reasons for me. To start, Gatsby reads markdown files. I could type just like how I send messages in Slack. Secondly, it uses React, so it is very easy for someone who knows React to make changes. Lastly, it is so easy to deploy with Netlify. 
