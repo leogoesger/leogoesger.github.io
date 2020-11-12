@@ -44,7 +44,7 @@ To add/remove blogs, you can open the project with an editor of your choice and 
 
 Let's say we want to create a new post called "Gatsby Blog".
 
-First, create a new folder within `content`. It is recommended to name the folder the same name as the title of the new post. In this case, `gatsby-blog` would do. Within the folder, create a file called `index.md`.
+First, create a new folder within `content`. It is recommended to name the folder the same name as the title of the new post. In this case, `gatsby-blog` would do. Within the folder, create a file called `index.md`. An important thing to remember, your blog's URL path is the same as this folder's name. If the post's folder name is `gatsby-blog`, the URL to share this post would be `https://your-domain.com/gatsby-blog`.
 
 ![file-structure](./file-structure.png)
 
@@ -56,7 +56,7 @@ There are two components that go into the `index.md`: header and main body. The 
 
 Technically, we can use as many fields as possible. In the future post, we will add a tag field. For simplicity, we will stick to two fields: title and date. 
 
-The title will be the blog's title, and the title will also be embedded within the URL when you share it with others. If the post name is `Gatsby Blog`, the URL to share this post would be `https://your-domain.com/gatsby-blog`.
+The title will be the blog's title, and date would be the publishing date.
 
 ### Main Body
 

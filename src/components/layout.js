@@ -5,6 +5,7 @@ import { ToggleBtn } from "./theme-toggler"
 if (typeof window !== "undefined") {
   // eslint-disable-next-line global-require
   require("smooth-scroll")('a[href*="#"]')
+  require("./solarizedlight.css")
 }
 
 const Layout = ({ location, title, children }) => {

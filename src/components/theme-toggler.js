@@ -7,6 +7,7 @@ import { FaMoon, FaSun } from 'react-icons/fa'
 export const ToggleBtn = () => (
     <ThemeToggler>
         {({ theme, toggleTheme }) => {
+
             return (
                 <Toggle
                     checked={theme === 'dark' || !theme}

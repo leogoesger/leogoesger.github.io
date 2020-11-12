@@ -400,3 +400,7 @@ tr {
 td {
   padding: 4px 0px
 }
+
+span.token.operator {
+  background: none;
+}
