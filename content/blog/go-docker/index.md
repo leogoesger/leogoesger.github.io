@@ -3,11 +3,10 @@ title: Go and Docker with Auto Reload
 date: '2020-11-11T22:12:03.284Z'
 status: 'draft'
 tags: ["coding"]
+ogimage: './docker-go.png'
 ---
 
 ![Docker and Go Image](./docker-go.png)
-
-## Why do I do such a thing in Go?
 
 Using Docker with Go is a pretty common approach, but what draws me into using Docker is because Docker lets me create a self-contained image with everything my application needs to function. This solves many issues caused by the "What machine did you write your code on" problem. 
 

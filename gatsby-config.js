@@ -5,8 +5,8 @@ module.exports = {
       name: `Leo Qiu`,
       summary: `lives, codes and climbs in Reno with Noelle and Roxy 🐶.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `Leo Qiu blogging about coding and climbing.`,
+    siteUrl: `https://leogoesger.io/`,
     social: {
       twitter: `leog0sger`,
     },
