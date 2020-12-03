@@ -12,7 +12,7 @@ module.exports = {
     },
   },
   plugins: [
-    'gatsby-plugin-dark-mode',
+    "gatsby-plugin-dark-mode",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -44,13 +44,19 @@ module.exports = {
             },
           },
           `gatsby-remark-autolink-headers`,
-          `gatsby-remark-prismjs`,
+
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              showLineNumbers: true,
+            },
+          },
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],
       },
     },
-    'gatsby-plugin-draft',
+    "gatsby-plugin-draft",
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
