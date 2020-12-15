@@ -20,7 +20,7 @@ Once all 12 workers finish their calculation, we could regroup their data (fan-i
 
 Channel facilitates all the communication between Goroutines. A few key ideas are very important to understand about channels.
 
-- Sending and receiving of a channel is blocking
+- Sending and receiving of an unbuffered channel is blocking
 - You cannot send to a closed channel
 - You can receive from a closed channel via `comma ok`
 - It is ok to have an unequal amount of senders and receivers if they are within a goroutine
@@ -28,7 +28,9 @@ Channel facilitates all the communication between Goroutines. A few key ideas ar
 
 These are rather confusing at first, but it will make more sense through these examples.
 
-#### - Sending and receiving of a channel is blocking
+#### - Sending and receiving of an unbuffered channel is blocking
+
+Unbuffered channel gives you the guarantee between the sender and receiver (receiver needs to be there first, maybe a few ns). Buffered channel, on the other hand, does not offer the guarantee, but it does not block. With that, it also comes with the risk. You could potentially send to a buffered channel with no receiver.
 
 It is very common to see error messages like _fatal error: all goroutines are asleep - deadlock!_. This is caused by sending to the channel without a receiver or visa versa.
 
@@ -89,7 +91,30 @@ func main() {
 
 Code: [https://play.golang.org/p/LQsFPnv4dlr](https://play.golang.org/p/LQsFPnv4dlr)
 
-Option 3. The last option is a bit more interesting. We could send both sender and receiver out. The reason we added `time.Sleep` is because the program would otherwise exit.
+Option 3. Use a buffered channel. Again, buffered channel losses that guarantee. You could remove line 10 and the program still runs with no error, but it is not blocking at line 4.
+
+```go
+func main() {
+	c := make(chan int, 1)
+
+	c <- 0
+
+	ms := time.Duration(rand.Intn(1e3)) * time.Millisecond
+	fmt.Printf("Working %v \n", ms)
+	time.Sleep(time.Duration(rand.Intn(1e3)) * time.Millisecond)
+
+	fmt.Println(<-c)
+}
+```
+
+```
+// output:
+0
+```
+
+Code: [https://play.golang.org/p/GDuYt8xoLCd](https://play.golang.org/p/GDuYt8xoLCd)
+
+Option 4. The last option is a bit more interesting. We could send both sender and receiver out. The reason we added `time.Sleep` is because the program would otherwise exit.
 
 ```go
 func main() {
