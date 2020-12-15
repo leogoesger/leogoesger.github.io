@@ -30,7 +30,7 @@ These are rather confusing at first, but it will make more sense through these e
 
 #### - Sending and receiving of an unbuffered channel is blocking
 
-Unbuffered channel gives you the guarantee between the sender and receiver (receiver needs to be there first, maybe a few ns). Buffered channel, on the other hand, does not offer the guarantee, but it does not block. With that, it also comes with the risk. You could potentially send to a buffered channel with no receiver.
+Unbuffered channel gives you the guarantee between the sender and receiver, but it has the unknown latency. Buffered channel does not offer the guarantee, but it reduces that latency. It also comes with the risk. You could potentially send to a buffered channel with no receiver.
 
 It is very common to see error messages like _fatal error: all goroutines are asleep - deadlock!_. This is caused by sending to the channel without a receiver or visa versa.
 
