@@ -91,7 +91,7 @@ func main() {
 
 Code: [https://play.golang.org/p/LQsFPnv4dlr](https://play.golang.org/p/LQsFPnv4dlr)
 
-Option 3. Use a buffered channel. Again, buffered channel losses that guarantee. You could remove line 10 and the program still runs with no error, but it is not blocking at line 4.
+Option 3. Use a buffered channel. Again, buffered channel losses that guarantee. You could remove line 10 and the program still runs with no error, because it is not blocking at line 4.
 
 ```go
 func main() {
