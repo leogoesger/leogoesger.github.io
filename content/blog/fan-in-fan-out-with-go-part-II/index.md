@@ -1,6 +1,6 @@
 ---
 title: Fan in and Fan out Pattern with Go Part II
-date: "2020-12-11T22:12:03.284Z"
+date: "2020-12-25T22:12:03.284Z"
 draft: false
 tags: ["coding"]
 ogimage: "./meta.jpeg"
