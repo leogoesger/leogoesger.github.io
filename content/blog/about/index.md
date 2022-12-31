@@ -43,7 +43,7 @@ Having worked in a 8-5 desk job, it is gratifing knowing the work I put into a s
 
 Working in a startup is tough, everyone is under constant stress. I feel lucky enough to have an amazing group of friends that I could trust and share our differences. Believe me, we argue a lot, but in the end we resolve these differences to push the growth of our company.
 
-As of April 2020, we still maintain a small team while mantain a full line of product, but are actively looking for more devs. If you are interested, send me a message on [Twitter](https://twitter.com/leog0esger).
+As of Dec 2022, we still have a small team while mantain a full line of product.
 
 ## Other fun facts
 
