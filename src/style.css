@@ -392,6 +392,7 @@ body.dark {
 
 pre {
   background-color: var(--codeBackground) !important;
+  overflow: scroll !important;
 }
 
 code {

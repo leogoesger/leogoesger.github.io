@@ -10,6 +10,7 @@ Pictures are not mine, just using them as a reference.
 
 - [Stech-Salathe, 10a](#stech-salathe)
 - [El Cap East Buttress, 10b](#el-cap-east-buttress)
+    * 2021 with Noelle and Fraser
 - [Crest Jewel and Crest Jewel Direct, 10a/b](#crest-jewel-and-crest-jewel-direct)
     * 11/01/20 with Noelle from Royal Arches
 - [Serenity to Sons](#serenity-to-sons)
@@ -17,7 +18,9 @@ Pictures are not mine, just using them as a reference.
 - [Freeblast, 11b/c](#freeblast)
     * 07/18/20 with Austin
 - [Rostrum N Face, 11b/c](#rostrum-n-face)
+    * 2021 with Peter
 - [Astroman, 11c](#astroman)
+    * 2021 with Peter on the first few pitches
 - [Half Dome in a Day, 11c](#half-dome-in-a-day)
 - [Incredible Hulk, 11- to 12-](#incredible-hulk)
     * 8/15/20 with Peter
